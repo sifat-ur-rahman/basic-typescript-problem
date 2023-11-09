@@ -21,3 +21,7 @@ Typescript Interview Questions:
 3. Handling asynchronous operations in TypeScript: .\
  async-await is easily handle asynchronous operations in Javascript and Typescript. It's has sample errors handler try-catch block. It's more readable and less error compared to nested callbacks and promise.
 
+4. TypeScript enums: .\
+ Enums are special types that allow you to define a set of named constant.It's make more readable code and provide type safety.
+
+
