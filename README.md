@@ -25,5 +25,17 @@ Typescript Interview Questions:
  Enums are special types that allow you to define a set of named constant.It's make more readable code and provide type safety.
 
 5. Type guards in TypeScript: .\
- Type guards is some expression the performs a runtime check that guarantees the type in some scope.
+ Type guards is some expression the performs a runtime check that guarantees the type in some scope. .\
  `function userAge<T>(age: T):T {return age}` 
+6. Readonly properties in TypeScript: .\
+ Readonly properties are properties that cannot be changed after initialization.
+  `const user :{
+    readonly name : string;
+    readonly email : string;
+    age : number
+  }={
+    name: 'sifat',
+    email: 'sifat@gmail.com',
+    age: 22
+  }`
+ 
