@@ -62,3 +62,25 @@ function addObject(car: Car, driver : Driver)  {
         ...driver
     }
 }
+
+
+//Problem 6:
+
+function sumOfNumbers(params:unknown) {
+    if (Array.isArray(params)) {
+        const numberOfArray = params.every((e) => typeof e === 'number')
+        
+        if (numberOfArray) {
+            let sum = 0
+            for (let i = 0; i < params.length; i++) {
+                const element = params[i];
+                sum += element
+            }
+            console.log('Sum:',sum)
+        } else {
+            console.log('Parameter is not an array of number')
+        }
+    } else {
+        console.log('This is not an array ')
+    }
+}
