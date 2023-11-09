@@ -99,3 +99,18 @@ function findFirstOccurrence<T>(array: Array<T>, value: T) :number {
 }
 
 //Problem 8:
+
+interface Product {
+    name: string;
+    price: number;
+    quantity: number
+}
+
+function sumTotalPrice(params:Product[]) {
+    let totalPrice = 0 
+    for (let i = 0; i < params.length; i++) {
+        const product = params[i];
+        totalPrice += product.price * product.quantity
+    }
+    return totalPrice
+}
