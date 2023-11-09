@@ -24,4 +24,6 @@ Typescript Interview Questions:
 4. TypeScript enums: .\
  Enums are special types that allow you to define a set of named constant.It's make more readable code and provide type safety.
 
-
+5. Type guards in TypeScript: .\
+ Type guards is some expression the performs a runtime check that guarantees the type in some scope.
+ `function userAge<T>(age: T):T {return age}` 
