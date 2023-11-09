@@ -84,3 +84,18 @@ function sumOfNumbers(params:unknown) {
         console.log('This is not an array ')
     }
 }
+
+
+//Problem 7:
+
+function findFirstOccurrence<T>(array: Array<T>, value: T) :number {
+    for (let i = 0; i < array.length; i++) {
+        const element = array[i];
+        if(element === value){
+            return i
+        }   
+    }
+    return -1
+}
+
+//Problem 8:
