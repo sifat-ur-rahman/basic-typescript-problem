@@ -7,6 +7,15 @@ Typescript Interview Questions:
 
 2. Optional chaining (?.) and nullish coalescing (??) operators:
  a. Optional chaining (?.): It's easily and safely access properties or methods an object .
+ `const user :{
+    name: string
+ }={
+    name: 'sifat'
+ }
+ const userName = user?.name`
  b.  Nullish coalescing (??): Nullish coalescing operator check his two sides and returns the right operator if the left operator is null or undefined.
+ `const name: string = 'sifat'
+ const userName = null
+ const displayName = name ?? userName`
 
 3. 
