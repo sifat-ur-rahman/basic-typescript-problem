@@ -7,16 +7,20 @@ Typescript Interview Questions:
 
 2. Optional chaining (?.) and nullish coalescing (??) operators: .\
  a. Optional chaining (?.): It's easily and safely access properties or methods an object. .\
- ```const user :{
+ ```ruby
+ const user :{
     name: string
  }={
     name: 'sifat'
  } 
- const userName = user?.name``` .\
+ const userName = user?.name
+ ``` 
  b.  Nullish coalescing (??): Nullish coalescing operator check his two sides and returns the right operator if the left operator is null or undefined. .\
- ```const name: string = 'sifat' 
+ ```ruby
+ const name: string = 'sifat' 
  const userName = null 
- const displayName = name ?? userName``` 
+ const displayName = name ?? userName
+ ``` 
 
 3. Handling asynchronous operations in TypeScript: .\
  async-await is easily handle asynchronous operations in Javascript and Typescript. It's has sample errors handler try-catch block. It's more readable and less error compared to nested callbacks and promise.
@@ -26,10 +30,13 @@ Typescript Interview Questions:
 
 5. Type guards in TypeScript: .\
  Type guards is some expression the performs a runtime check that guarantees the type in some scope. .\
- ```function userAge<T>(age: T):T {return age}``` 
+ ``````ruby
+ function userAge<T>(age: T):T {return age}
+ ``` 
 6. Readonly properties in TypeScript: .\
  Readonly properties are properties that cannot be changed after initialization. .\
-  `const user :{
+  ```ruby
+  const user :{
     readonly name : string;
     readonly email : string;
     age : number
@@ -37,11 +44,14 @@ Typescript Interview Questions:
     name: 'sifat',
     email: 'sifat@gmail.com',
     age: 22
-  }`
+  }
+  ```
 
 7. Union types in TypeScript:.\
  Union types is a type formed from two or more other types, representing values that may be any one of those type. .\
- ```function getUserId(id: number|string){
+ ```ruby
+ function getUserId(id: number|string){
     return `User id: ${id}`
- }```
+ }
+ ```
  
