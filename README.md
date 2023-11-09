@@ -11,11 +11,13 @@ Typescript Interview Questions:
     name: string
  }={
     name: 'sifat'
- }
+ } .\
  const userName = user?.name` .\
  b.  Nullish coalescing (??): Nullish coalescing operator check his two sides and returns the right operator if the left operator is null or undefined. .\
- `const name: string = 'sifat'
- const userName = null
- const displayName = name ?? userName` .\
+ `const name: string = 'sifat' .\
+ const userName = null .\
+ const displayName = name ?? userName` 
 
-3. 
+3. Handling asynchronous operations in TypeScript: .\
+ a.
+
