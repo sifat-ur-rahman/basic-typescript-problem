@@ -1,4 +1,4 @@
-Typescript Interview Questions:
+## Typescript Interview Questions:
 
 1. Benefits of using TypeScript over JavaScript in a project: .\
    a. Typescript code is more readable amd manageable in a large project. .\
