@@ -31,7 +31,9 @@
 5. Type guards in TypeScript: .\
  Type guards is some expression the performs a runtime check that guarantees the type in some scope. 
  ```ruby
- function userAge<T>(age: T):T {return age}
+ function userAge<T>(age: T):T{
+    return age
+    }
  ``` 
 6. Readonly properties in TypeScript: .\
  Readonly properties are properties that cannot be changed after initialization. 
