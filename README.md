@@ -6,7 +6,7 @@ Typescript Interview Questions:
    c. Typescript code write when best assists in code editor.
 
 2. Optional chaining (?.) and nullish coalescing (??) operators: .\
- a. Optional chaining (?.): It's easily and safely access properties or methods an object. .\
+ a. Optional chaining (?.): It's easily and safely access properties or methods an object. 
  ```ruby
  const user :{
     name: string
@@ -15,7 +15,7 @@ Typescript Interview Questions:
  } 
  const userName = user?.name
  ``` 
- b.  Nullish coalescing (??): Nullish coalescing operator check his two sides and returns the right operator if the left operator is null or undefined. .\
+ b.  Nullish coalescing (??): Nullish coalescing operator check his two sides and returns the right operator if the left operator is null or undefined. 
  ```ruby
  const name: string = 'sifat' 
  const userName = null 
@@ -29,7 +29,7 @@ Typescript Interview Questions:
  Enums are special types that allow you to define a set of named constant.It's make more readable code and provide type safety.
 
 5. Type guards in TypeScript: .\
- Type guards is some expression the performs a runtime check that guarantees the type in some scope. .\
+ Type guards is some expression the performs a runtime check that guarantees the type in some scope. 
  ```ruby
  function userAge<T>(age: T):T {return age}
  ``` 
@@ -48,7 +48,7 @@ Typescript Interview Questions:
   ```
 
 7. Union types in TypeScript:.\
- Union types is a type formed from two or more other types, representing values that may be any one of those type. .\
+ Union types is a type formed from two or more other types, representing values that may be any one of those type. 
  ```ruby
  function getUserId(id: number|string){
     return `User id: ${id}`
