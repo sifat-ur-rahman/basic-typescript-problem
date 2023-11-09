@@ -11,13 +11,13 @@ Typescript Interview Questions:
     name: string
  }={
     name: 'sifat'
- } .\
+ } 
  const userName = user?.name` .\
  b.  Nullish coalescing (??): Nullish coalescing operator check his two sides and returns the right operator if the left operator is null or undefined. .\
- `const name: string = 'sifat' .\
- const userName = null .\
+ `const name: string = 'sifat' 
+ const userName = null 
  const displayName = name ?? userName` 
 
 3. Handling asynchronous operations in TypeScript: .\
- a.
+ async-await is easily handle asynchronous operations in Javascript and Typescript. It's has sample errors handler try-catch block. It's more readable and less error compared to nested callbacks and promise.
 
