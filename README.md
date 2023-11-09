@@ -28,7 +28,7 @@ Typescript Interview Questions:
  Type guards is some expression the performs a runtime check that guarantees the type in some scope. .\
  `function userAge<T>(age: T):T {return age}` 
 6. Readonly properties in TypeScript: .\
- Readonly properties are properties that cannot be changed after initialization.
+ Readonly properties are properties that cannot be changed after initialization. .\
   `const user :{
     readonly name : string;
     readonly email : string;
@@ -38,4 +38,10 @@ Typescript Interview Questions:
     email: 'sifat@gmail.com',
     age: 22
   }`
+
+7. Union types in TypeScript:.\
+ Union types is a type formed from two or more other types, representing values that may be any one of those type. .\
+ `function getUserId(id: number|string){
+    return `User id: ${id}`
+ }`
  
